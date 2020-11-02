@@ -1,0 +1,71 @@
+
+Mazhar@Haier-PC MINGW64 ~
+$ cd /d
+
+Mazhar@Haier-PC MINGW64 /d
+$ cd work/
+
+Mazhar@Haier-PC MINGW64 /d/work
+$ cd assignment/
+bash: cd: assignment/: No such file or directory
+
+Mazhar@Haier-PC MINGW64 /d/work
+$ cd git/
+
+Mazhar@Haier-PC MINGW64 /d/work/git
+$ cd assignment/
+
+Mazhar@Haier-PC MINGW64 /d/work/git/assignment (main)
+$ git add 'CS702 Assignment 1.pdf'
+
+Mazhar@Haier-PC MINGW64 /d/work/git/assignment (main)
+$ git commit -m 'CS702 Assignment 1.pdf'
+[main 1c9f54e] CS702 Assignment 1.pdf
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 CS702 Assignment 1.pdf
+
+Mazhar@Haier-PC MINGW64 /d/work/git/assignment (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/MazharMahmmood/assignment.git'
+
+Mazhar@Haier-PC MINGW64 /d/work/git/assignment (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 267.13 KiB | 10.27 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MazharMahmmood/assignment.git
+   38e52a6..1c9f54e  main -> main
+
+Mazhar@Haier-PC MINGW64 /d/work/git/assignment (main)
+$ cd d/
+bash: cd: d/: No such file or directory
+
+Mazhar@Haier-PC MINGW64 /d/work/git/assignment (main)
+$ cd /d
+
+Mazhar@Haier-PC MINGW64 /d
+$ cd work/
+
+Mazhar@Haier-PC MINGW64 /d/work
+$ cd git/
+
+Mazhar@Haier-PC MINGW64 /d/work/git
+$
+
+Mazhar@Haier-PC MINGW64 /d/work/git
+$ git clone https://github.com/saqibutm/ms-algo.git
+fatal: destination path 'ms-algo' already exists and is not an empty directory.
+
+Mazhar@Haier-PC MINGW64 /d/work/git
+$ cd ms-algo/
+
+Mazhar@Haier-PC MINGW64 /d/work/git/ms-algo (main)
+$ git pull
+Already up to date.
+
+Mazhar@Haier-PC MINGW64 /d/work/git/ms-algo (main)
+$
