@@ -6,10 +6,6 @@
  *  Reads two command-line arguments p and q and computes the greatest
  *  common divisor of p and q using Euclid's algorithm.
  *
- *  Remarks
- *  -----------
- *    - may return the negative of the gcd if either p or q is negative
- *
  ******************************************************************************/
 
 public class Euclid {
